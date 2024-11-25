@@ -466,11 +466,11 @@ with tab2:
         st.markdown("<h2 style='text-align: center;'>🌿 Welcome to Eco-Scan </h2>", unsafe_allow_html=True)
         st.markdown(
             f"""
-            <p style="font-size: 22px; color: {text_color_1};">
+            <p style="font-size: 16px; color: {text_color_1};">
             🌍 <b>Eco-Scan</b> is your ultimate tool to track the environmental impact of your fashion choices. 
             With just a photo, we provide insights into your clothing’s carbon footprint and help you earn exciting rewards! 🎉
             </p>
-            <ul style="font-size: 20px; color: {text_color_2};">
+            <ul style="font-size: 14px; color: {text_color_2};">
             <li><span class="emoji-bullet">👗</span> Analyze clothing materials and their impact on the planet.</li>
             <li><span class="emoji-bullet">♻️</span> Encourage sustainable habits like recycling and buying secondhand.</li>
             <li><span class="emoji-bullet">🎁</span> Earn and redeem eco-reward points for greener fashion.</li>
@@ -485,7 +485,7 @@ with tab2:
             "https://img.freepik.com/premium-vector/ecofriendly-woman-with-upcycled-clothing-piles-sustainable-fashion-concept_906149-129314.jpg",
             caption="Make sustainability fashionable! 👗♻️",
             use_container_width=False,
-            width=650,
+            width=300,
         )
 
     # How It Works Section
@@ -497,7 +497,7 @@ with tab2:
             "https://youthtimemag.com/wp-content/uploads/2022/03/shutterstock_2011615499.png",
             caption="Your sustainability journey starts here! 🌟",
             use_container_width=False,
-            width=650,
+            width=300,
             
         )
 
@@ -506,7 +506,7 @@ with tab2:
         st.markdown("<h2 style='text-align':center;>🔍 HOW IT WORKS</h2>", unsafe_allow_html=True)
         st.markdown(
             f"""
-            <ul style="font-size: 22px; color: {text_color_2};">
+            <ul style="font-size: 16px; color: {text_color_2};">
             <li><span class="emoji-bullet">📤</span> Upload an Image: Snap a photo of your clothing item.</li>
             <li><span class="emoji-bullet">📊</span> Carbon Footprint Analysis: Get detailed stats on the item's environmental impact.</li>
             <li><span class="emoji-bullet">🌟</span> Eco-Rewards: Earn points for adopting sustainable practices.</li>
@@ -524,17 +524,17 @@ with tab2:
         st.markdown("<h3 style='text-align'=center;>💚 ECO-SAVINGS AND REWARDS</h3>", unsafe_allow_html=True)
         st.markdown(
             f"""
-            <p style="font-size: 22px; color: {text_color_3};">
+            <p style="font-size: 16px; color: {text_color_3};">
             Every sustainable step you take counts! 🌟  
             <b>Here’s how you can earn:</b>
             </p>
-            <ul style="font-size: 22px; color: {text_color_3};">
+            <ul style="font-size: 14px; color: {text_color_3};">
             <li><span class="emoji-bullet">🛍️</span> Buy sustainable fabrics: Saves 5 kg CO₂ → Earn 50 points.</li>
             <li><span class="emoji-bullet">♻️</span> Recycle clothes:Saves 6 kg CO₂ → Earn 60 points.</li>
             <li><span class="emoji-bullet">👚</span> Choose secondhand: Saves 10 kg CO₂ → Earn 100 points.</li>
             </ul>
-            <p style="font-size: 22px;">🎁 Redeem Points for:</p>
-            <ul style="font-size: 22px;">
+            <p style="font-size: 16px;">🎁 Redeem Points for:</p>
+            <ul style="font-size: 14px;">
             <li><span class="emoji-bullet">💸</span> Discounts up to 15% on eco-friendly brands.</li>
             <li><span class="emoji-bullet">🚚</span> Free shipping on sustainable products.</li>
             <li><span class="emoji-bullet">🎁</span> Exclusive offers on green fashion items.</li>
@@ -547,7 +547,7 @@ with tab2:
             "https://i.postimg.cc/VNhFW7P7/Reward.png",
             caption="Identify and calculate your clothing's carbon footprint. 🌱",
             use_container_width=False,
-            width=650
+            width=300
         
            
         )
