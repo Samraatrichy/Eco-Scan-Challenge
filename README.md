@@ -45,7 +45,7 @@ Prerequisites
 
 1. Clone the repository:
 
-         git clone https://github.com/yourusername/eco-scan-challenge.git
+         git clone https://github.com/Samraatrichy/Eco-Scan-Challenge
 
          cd eco-scan-challenge
 
