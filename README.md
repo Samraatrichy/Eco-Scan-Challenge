@@ -27,7 +27,7 @@ B. Backend:
 
 1. Frontend: Streamlit
 2. Backend: Python
-3. Image Recognition: OpenAI’s GPT-4 Vision model (gpt-4o)
+3. Image Recognition: OpenAI’s GPT-4 Vision model (gpt-4o) 
 4. In-Memory Storage: Dictionary-based assumptions for carbon scores
 
 -------------------------------------------------------------------------------------
@@ -38,6 +38,7 @@ Prerequisites
 1. Python 3.8 or later
 2. Streamlit installed (pip install streamlit)
 3. OpenAI API key (sign up at OpenAI)
+   
 
 --------------------------------------------------------------------------------------
 
@@ -46,8 +47,7 @@ Prerequisites
 1. Clone the repository:
 
          git clone https://github.com/Samraatrichy/Eco-Scan-Challenge
-
-         cd eco-scan-challenge
+         
 
 2. Install dependencies:
 
@@ -56,6 +56,9 @@ Prerequisites
 3. Set up your OpenAI API key:
 
          OPENAI_API_KEY='your_openai_api_key'
+  We have temporarily enabled our key for use. 
+  If it doesn't work, feel free to use your own OpenAI API key.
+  
 
 ---------------------------------------------------------------------------------------
 
