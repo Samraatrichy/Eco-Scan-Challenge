@@ -41,7 +41,8 @@ eco_tip_generator = eco_tip()
 
 # Set your OpenAI API Key directly in the script
 load_dotenv()
-openai.api_key=os.getenv('OPENAI_API_KEY')
+openai.api_key="sk-2DnyDvjsTm8YhwNZdA3y22BDes3RO79z3oGsE8ZL3zT3BlbkFJuJJH_jDxFnPbJe1Iyo2_YSiIS5iSgFWCtKuBsiMeoA"
+#openai.api_key=os.getenv('OPENAI_API_KEY') 
 client=OpenAI()
 #OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 #OPENAI_API_KEY = "4039f8e9300c485d8fedb7e7c8e52eb6"
