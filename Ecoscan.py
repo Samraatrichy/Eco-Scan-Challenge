@@ -40,10 +40,10 @@ def eco_tip():
 eco_tip_generator = eco_tip()
 
 # Set your OpenAI API Key directly in the script
-load_dotenv()
+#load_dotenv()
 openai.api_key="sk-2DnyDvjsTm8YhwNZdA3y22BDes3RO79z3oGsE8ZL3zT3BlbkFJuJJH_jDxFnPbJe1Iyo2_YSiIS5iSgFWCtKuBsiMeoA"
 #openai.api_key=os.getenv('OPENAI_API_KEY') 
-client=OpenAI()
+#client=OpenAI()
 #OPENAI_API_KEY = os.getenv('OPENAI_API_KEY')
 #OPENAI_API_KEY = "4039f8e9300c485d8fedb7e7c8e52eb6"
 
@@ -87,7 +87,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # Set the API Key in the environment variable (for OpenAI SDK compatibility)
-#os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
+os.environ["OPENAI_API_KEY"] = OPENAI_API_KEY
 # Helper function to encode image to base64
 def encode_image(image_path: str) -> str:
     with open(image_path, "rb") as image_file:
@@ -110,7 +110,7 @@ def analyze_image(image_data: str) -> str:
 
     """
 
-    #client = OpenAI(api_key=OPENAI_API_KEY)  # Initialize OpenAI client with API key
+    client = OpenAI(api_key=OPENAI_API_KEY)  # Initialize OpenAI client with API key
     MODEL = "gpt-4o"
 
     response = client.chat.completions.create(
