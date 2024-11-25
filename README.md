@@ -69,25 +69,25 @@ Prerequisites
 ---------------------------------------------------------------------------------------
 
 # Assumptions for Carbon Scoring 
------------------------------------------------------------------------------
-| S.No | Clothing Item                | Estimated Carbon Footprint (kg CO₂e)|
------------------------------------------------------------------------------
-| 1    | T-shirt (Cotton)            | 5                                    |
-| 2    | Jeans (Denim)               | 10                                   |
-| 3    | Jacket (Wool or Polyester)  | 15                                   |
-| 4    | Shirt (Cotton)              | 4                                    |
-| 5    | Sweater (Wool or Acrylic)   | 7                                    |
-| 6    | Dress (Cotton or Synthetic) | 8                                    |
-| 7    | Shorts (Cotton)             | 4                                    |
-| 8    | Hoodie (Cotton)             | 8                                    |
-| 9    | Suit (Wool)                 | 20                                   |
-| 10   | Coat (Wool or Synthetic)    | 18                                   |
-| 11   | Skirt (Cotton)              | 6                                    |
-| 12   | Socks (Cotton or Wool)      | 1.5                                  |
-| 13   | Underwear (Cotton)          | 1                                    |
-| 14   | Tights (Nylon)              | 2                                    |
-| 15   | Sportswear (Polyester)      | 7                                    |
------------------------------------------------------------------------------
+
+| S.No | Clothing Item                | Estimated Carbon Footprint (kg CO₂e) |
+|------|------------------------------|---------------------------------------|
+| 1    | T-shirt (Cotton)            | 5                                     |
+| 2    | Jeans (Denim)               | 10                                    |
+| 3    | Jacket (Wool or Polyester)  | 15                                    |
+| 4    | Shirt (Cotton)              | 4                                     |
+| 5    | Sweater (Wool or Acrylic)   | 7                                     |
+| 6    | Dress (Cotton or Synthetic) | 8                                     |
+| 7    | Shorts (Cotton)             | 4                                     |
+| 8    | Hoodie (Cotton)             | 8                                     |
+| 9    | Suit (Wool)                 | 20                                    |
+| 10   | Coat (Wool or Synthetic)    | 18                                    |
+| 11   | Skirt (Cotton)              | 6                                     |
+| 12   | Socks (Cotton or Wool)      | 1.5                                   |
+| 13   | Underwear (Cotton)          | 1                                     |
+| 14   | Tights (Nylon)              | 2                                     |
+| 15   | Sportswear (Polyester)      | 7                                     |
+
 * For the full list, refer to the app's data table.
 
 -------------------------------------------------------------------------------------
