@@ -485,7 +485,7 @@ with tab2:
             "https://img.freepik.com/premium-vector/ecofriendly-woman-with-upcycled-clothing-piles-sustainable-fashion-concept_906149-129314.jpg",
             caption="Make sustainability fashionable! 👗♻️",
             use_container_width=False,
-            width=450,
+            width=400,
         )
 
     # How It Works Section
@@ -497,7 +497,7 @@ with tab2:
             "https://youthtimemag.com/wp-content/uploads/2022/03/shutterstock_2011615499.png",
             caption="Your sustainability journey starts here! 🌟",
             use_container_width=False,
-            width=450,
+            width=360,
             
         )
 
@@ -547,7 +547,7 @@ with tab2:
             "https://i.postimg.cc/VNhFW7P7/Reward.png",
             caption="Identify and calculate your clothing's carbon footprint. 🌱",
             use_container_width=False,
-            width=450
+            width=400
         
            
         )
