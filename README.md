@@ -56,7 +56,7 @@ Prerequisites
 3. Set up your OpenAI API key:
 
          OPENAI_API_KEY='your_openai_api_key'
-  We have temporarily enabled our key for use. 
+  We have temporarily enabled our own key for use. 
   If it doesn't work, feel free to use your own OpenAI API key.
   
 
