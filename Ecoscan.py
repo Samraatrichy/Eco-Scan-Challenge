@@ -446,11 +446,11 @@ with tab2:
                 text-transform: uppercase;
             }}
             p {{
-                font-size: 20px;
+                font-size: 16px;
                 line-height: 1.8;
             }}
             .emoji-bullet {{
-                font-size: 24px;
+                font-size: 16px;
                 margin-right: 10px;
             }}
         </style>
@@ -461,9 +461,9 @@ with tab2:
     # Title and Introduction Section
     
 
-    col1, col2 = st.columns(2, gap="large")
+    col1, col2 = st.columns(2, gap="medium")
     with col1:
-        st.markdown("<h2 style='text-align: center;'>🌿 Welcome to Eco-Scan </h2>", unsafe_allow_html=True)
+        st.markdown("<h3 style='text-align: center;'>🌿 Welcome to Eco-Scan </h3>", unsafe_allow_html=True)
         st.markdown(
             f"""
             <p style="font-size: 16px; color: {text_color_1};">
@@ -485,19 +485,19 @@ with tab2:
             "https://img.freepik.com/premium-vector/ecofriendly-woman-with-upcycled-clothing-piles-sustainable-fashion-concept_906149-129314.jpg",
             caption="Make sustainability fashionable! 👗♻️",
             use_container_width=False,
-            width=300,
+            width=450,
         )
 
     # How It Works Section
     
 
-    col3, col4 = st.columns(2, gap="large")
+    col3, col4 = st.columns(2, gap="medium")
     with col3:
         st.image(
             "https://youthtimemag.com/wp-content/uploads/2022/03/shutterstock_2011615499.png",
             caption="Your sustainability journey starts here! 🌟",
             use_container_width=False,
-            width=300,
+            width=450,
             
         )
 
@@ -519,7 +519,7 @@ with tab2:
     # Eco-Savings and Rewards Section
     
 
-    col5, col6 = st.columns(2, gap="large")
+    col5, col6 = st.columns(2, gap="medium")
     with col5:
         st.markdown("<h3 style='text-align'=center;>💚 ECO-SAVINGS AND REWARDS</h3>", unsafe_allow_html=True)
         st.markdown(
@@ -547,7 +547,7 @@ with tab2:
             "https://i.postimg.cc/VNhFW7P7/Reward.png",
             caption="Identify and calculate your clothing's carbon footprint. 🌱",
             use_container_width=False,
-            width=300
+            width=450
         
            
         )
